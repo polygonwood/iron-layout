@@ -34,7 +34,7 @@ Package.onUse(function (api) {
   api.addFiles('layout.js');
 });
 
-Package.on_test(function (api) {
+Package.onTest(function (api) {
   api.versionsFrom('3.0.2');
 
   api.use('iron:layout');
